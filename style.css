@@ -16,4 +16,203 @@ font-weight: 700;
 
 /* -------------------------------------------------- */
 
+.uvod {
+    background-color: #f5f5f5;
+    
+}
+.hlavicka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 0;
+}
+.hlavicka-vlevo {
+    display: flex;
+    flex: 1 1 auto;
+}
+.hlavicka-vpravo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    flex: 1 1 auto;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-tlacitka {
+    display: flex;
+    flex-direction: row;
+}
+.menu-tlacitka a {
+    list-style-type: none;
+    text-decoration: none;
+}
+.tlacitko.tlacitko-primarni {
+    display: block;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 13px;
+    font-weight: 600;
+}
+.tlacitko.tlacitko-sekundarni {
+    border: 1px solid grey;
+    background-color: #f5f5f5;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    width: 170px;
+    margin-left: 5px;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 3%;
+}
+.banner {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    padding: 50px;
+}
+.banner-text {
+    width: 420px;
+    margin-top: 50px;
+    flex: 1 0 420px;
+    z-index: 2;
+    
+}
+.tlacitko-primarni.tlacitko-velke {
+    display: block;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 30px;
+    background-color: #3498db;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.minitext p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+.banner-foto  {
+    display: flex;
+    padding-top: 50px;
+    flex: 0 1 45%;
+    
+}
+h1 {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+.upoutavka {
+    font-size: 18px;
+    color: #a5a5a5;
+    font-family: 'Open Sans', sans-serif;
+}
+.vlastnosti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.vlastnosti h2 {
+    padding: 30px;
+    padding-bottom: 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.vlastnosti p {
+    padding: 0 30px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+.vlastnosti a {
+    font-size: 13px;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ikonka {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    flex: 1 1 auto;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.ikona-kufrik,
+.ikona-slunce,
+.ikona-srdce,
+.ikona-zvuk {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px lightgray;
+    flex: 1 1 calc(90% / 2);
+    margin: 30px;
+}
 
+.sekce-cerna {
+    background-color: #252525;
+}
+
+.paticka {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #959595;
+    font-size: 13px;
+    padding: 50px;
+}
+
+.paticka-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.paticka-menu a {
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    color: white;
+    justify-content: space-around;
+}
